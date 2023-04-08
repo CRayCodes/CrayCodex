@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
 
   //fetch data from server -> bots response
 
-  const response = await fetch('https://cray-codex.onrender.com', {
+  const response = await fetch('http://localhost:5000', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
